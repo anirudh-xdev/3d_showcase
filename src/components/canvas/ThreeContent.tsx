@@ -53,7 +53,7 @@ function CameraRig() {
       2 * delta
     );
 
-    // Look a bit ahead of time
+    // Look a bit ahead
     state.camera.lookAt(0, 0, targetZ - 10);
   });
 
